@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button, a {
+    cursor: pointer;
+}
+

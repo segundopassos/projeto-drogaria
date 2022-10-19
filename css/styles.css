@@ -1,0 +1,238 @@
+/* Style Header */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8.6rem;
+    background-color: var(--grey-colors-800);
+    display: flex;
+
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header .menu-mobile {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 3.2rem;
+}
+
+header nav ul li {
+    margin-left: 3.2rem;
+}
+
+header nav ul li:first-child{
+    margin-left: 0px;
+}
+
+header nav .btn-primary {
+    padding: 0.9rem 3.4rem;
+}
+
+
+
+header .container .logo{
+    max-width: 170px;
+}
+
+/* Style Section Hero */
+.s-hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.s-hero {
+    padding: 7.2rem 0px;
+    margin-top: 8.8rem;
+}
+
+.s-hero .text {
+    width: 100%;
+    max-width: 62.2rem;
+    
+}
+
+
+.s-hero .text h1 {
+    margin-bottom: 2rem;
+}
+
+.s-hero .text p {
+    margin-bottom: 5.6rem;
+    max-width: 48.8rem;
+    font-size: 1.8rem;
+    line-height: 150%;
+
+    color: var(--grey-colors-300);
+
+}
+
+.s-hero .text .btn-primary {
+    padding: 1.7rem 3.7rem;
+    transition: all .4s;
+    text-align: center;
+}
+
+.s-hero .text .btn-primary:hover {
+    background-color: #ffa407;
+
+}
+
+.s-hero .image {
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.s-hero .foto-pai {
+    width: 100%;
+    max-width: 48.8rem;
+    height: 49.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Section featured cards */
+
+.s-card-featured {
+    background-color: var(--grey-colors-100);
+    padding-top: 10.4rem;
+    padding-bottom: 10.2rem;
+}
+
+.s-card-featured .main-area {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 12.5rem;
+}
+
+.s-card-featured .main-area .icon {
+    max-width: 150px;
+    
+}
+
+.s-card-featured .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-card-featured .title.center {
+    align-items: center;
+}
+
+.s-card-featured .title p {
+    margin-top: 0.8rem;
+}
+
+.s-card-featured p {
+    color: var(--white-colors-text);
+}
+
+.s-card-featured .all-cards {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4.8rem;
+}
+
+    .s-card-featured .all-cards .card {
+        width: 100%;
+        max-width: 384px;
+        height: 382px;
+        background-color:rgba(28, 29, 31, 0.5);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2.3999999999999986rem;
+
+        cursor: pointer;
+
+        transition: transform .3s;
+        border-radius: 25px;
+    }
+
+    .s-card-featured .all-cards .card:hover {
+        transform: scale(1.05);
+    } 
+
+    .s-card-featured .all-cards .card.white {
+        background-color: var(--white);
+        box-shadow: 0px 16px 80px -4px rgba(194, 37, 92, 0.08);
+    
+    } 
+
+    .s-card-featured .all-cards .card.white .info h3{
+        color: var(--grey-colors-100);
+    }
+
+    .s-card-featured .all-cards .card.white .info p {
+        color: var(--grey-colors-300);
+    }
+
+    .s-card-featured .all-cards .card .info {
+        margin-top: 4rem;
+        max-width: 28.8rem;
+    }
+
+    .s-card-featured .all-cards .card .info h3 {
+        text-align: center;
+        margin-top: 0.8rem;
+        line-height: 150%;
+    }
+
+
+   
+
+footer {
+    background-color: var(--grey-colors-100);
+    padding-top: 8.8rem;
+    padding-bottom: 4rem;
+
+    
+}
+
+
+
+footer .copy {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3.1rem;
+    flex-direction: column;
+
+}
+
+footer .copy p {
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white-colors-text);
+}
+
+
